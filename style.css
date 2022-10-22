@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body,html{
+    height: 100%;
+}
+.bg-img{
+    background-image: url("durg.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(25%) blur(2px);
+    z-index: -1;
+}
+.heading {
+    background-color: rgba(14, 7, 64, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    border-radius: 5px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(14, 7, 64, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    border-radius: 5px;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 55.5%;
+    left: 69%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 42%;
+    padding: 20px;
+}
+.buttons button{
+    margin:20px;
+    margin: 55px 0 37px 0;
+    padding: 20px;
+    padding-left:2rem ;
+    padding-right: 2rem;
+    font-weight: bold;
+    font-size: 2rem;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+.buttons button:hover{
+    background-color: rgb(5, 5, 141);
+}
+#judgebtn{
+    padding-left: 2.6rem;
+    padding-right: 2.6rem;
+}
+.fourlions{
+    background-color: rgba(14, 7, 64, 0.4);
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    border-radius: 5px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-110%, 17%);
+    z-index: 2;
+    width: 36.2%;
+    padding: 2rem;
+    text-align: center;
+}
+.fourlions img{
+    height: 50vh;
+}
